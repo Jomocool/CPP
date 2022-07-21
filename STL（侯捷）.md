@@ -2,7 +2,7 @@
 
 ## 1.C++ Standard Libraty和Standard Template Library的区别
 
-## ![image-20220721141727921](C:\Users\86135\AppData\Roaming\Typora\typora-user-images\image-20220721141727921.png)
+![Image text](https://github.com/Jomocool/C-/blob/main/image.png)
 
 
 
