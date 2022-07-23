@@ -256,3 +256,201 @@ deallocate调用operator delete，然后operator delete调用free
 ![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/59.png)
 
 ![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/60.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/61.png)
+
+## 9.容器之间的实现关系与分类
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/62.png)
+
+
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/63.png)
+
+## 10.深度探索list
+
+### 10.1G2.9容器list
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/64.png)
+
+除了array和vector，其他容器的iterator都要是类，因为需要智能指针
+
+### 10.2list's iterator
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/65.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/66.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/67.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/68.png)
+
+### 10.3G4.9容器list
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/69.png)
+
+
+
+
+
+## 11.迭代器的设计原则和Iterator Traits的作用与设计
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/70.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/71.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/72.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/73.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/74.png)
+
+
+
+## 12.vector深度探索
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/75.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/76.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/77.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/78.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/79.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/80.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/81.png)
+
+
+
+## 13.array、forward_list深度探索
+
+### 13.1array
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/82.png)
+
+array不可扩充
+
+### 13.2forward_list
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/83.png)
+
+
+
+## 14.deque、queue和stack深度探索
+
+### 14.1deque
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/84.png)
+
+本质：vector
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/85.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/86.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/87.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/88.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/\89.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/90.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/91.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/92.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/93.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/94.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/95.png)
+
+扩充后，将旧容器的元素copy到新容器的中段
+
+### 14.2queue
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/96.png)
+
+### 14.3stack
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/97.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/98.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/99.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/100.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/101.png)
+
+
+
+## 15.RB-tree深度探索
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/102.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/103.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/104.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/105.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/106.png)
+
+
+
+## 16.set、multiset深度探索
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/107.png)
+
+### 16.1set
+
+根据key排序
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/108.png)
+
+### 16.2set，in VC6
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/109.png)
+
+### 16.3multiset
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/110.png)
+
+优先使用容器自身提供的算法，因为是特化的，更适合该容器
+
+
+
+## 17.map、multimap深度探索
+
+### 17.1容器map
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/111.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/112.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/113.png)
+
+### 17.2multimap
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/114.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/115.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/116.png)
+
+
+
+## 18.hashtable深度探索
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/117.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/118.png)
+
+55%53=2，2%53=2，于是这两个元素都放到2号位，串联起来
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/119.png)
