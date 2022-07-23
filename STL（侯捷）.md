@@ -454,3 +454,17 @@ array不可扩充
 55%53=2，2%53=2，于是这两个元素都放到2号位，串联起来
 
 ![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/119.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/120.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/121.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/122.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/123.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/124.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/125.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/126.png)
