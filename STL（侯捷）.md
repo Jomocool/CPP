@@ -468,3 +468,113 @@ array不可扩充
 ![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/125.png)
 
 ![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/126.png)
+
+## 19.unordered容器概念
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/127.png)
+
+只是名字换了而已
+
+
+
+## 20.算法的形式
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/128.png)
+
+
+
+## 21.迭代器的分类（category）
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/129.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/130.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/131.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/132.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/133.png)
+
+
+
+## 22.迭代器分类（category）对算法的影响
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/134.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/135.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/136.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/137.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/138.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/139.png)
+
+先用某个函数判断出迭代器种类，然后根据迭代器种类调用相对应的算法，提高了算法的效率
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/140.png)
+
+并非强制，只是暗示
+
+
+
+## 23.算法源代码剖析（11个例子）
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/141.png)
+
+### 23.1accumulate
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/142.png)
+
+### 23.2for_each
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/143.png)
+
+### 23.3repalce,replace_if,replace_copy
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/144.png)
+
+### 23.4count,count_if
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/145.png)
+
+### 23.5find,find_if
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/146.png)
+
+### 23.6sort
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/147.png)
+
+### 23.7关于reverse iterator,rbegin(),rend()
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/148.png)
+
+### 23.8binary_search
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/149.png)
+
+
+
+## 24.仿函数和函数对象
+
+### 24.1仿函数functors
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/150.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/151.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/152.png)
+
+小括号产生临时对象
+
+### 24.2仿函数functors的可适配（adaptable）条件
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/153.png)
+
+条件：继承去回答问题
+
+### 24.3函数对象
+
+函数对象：仿函数临时创造的对象
