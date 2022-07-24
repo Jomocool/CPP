@@ -578,3 +578,113 @@ array不可扩充
 ### 24.3函数对象
 
 函数对象：仿函数临时创造的对象
+
+## 25.存在多种Adapter
+
+适配器：把东西记起来，以便后面使用
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/154.png)
+
+### 25.1容器适配器
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/155.png)
+
+### 25.2函数适配器
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/\156.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/157.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/158.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/159.png)
+
+### 25.3迭代器适配器
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/160.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/161.png)
+
+### 25.3X适配器:ostream_iterator
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/162.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/163.png)
+
+![image-20220724201957037](D:\Code(Github)\C-\img-storage\164.png)
+
+
+
+## 26.一个万用的hash function
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/165.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/167.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/168.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/169.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/170.png)
+
+
+
+## 27.Tuple
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/171.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/172.png)
+
+t.head()->第一个元素
+
+t.tail()->第一个后面的所有元素
+
+t.tail().head()->第二个元素
+
+
+
+## 28.type traits
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/173.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/174.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/175.png)
+
+
+
+## 29.type traits实现
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/176.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/177.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/178.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/179.png)
+
+
+
+## 30.cout
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/180.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/181.png)
+
+
+
+## movable元素对于容器速度效能的影响
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/182.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/183.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/184.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/185.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/186.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/187.png)
+
+![image-text](https://github.com/Jomocool/C-/blob/main/img-storage/188.png)
