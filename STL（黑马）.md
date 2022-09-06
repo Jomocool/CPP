@@ -924,7 +924,7 @@ cout << pair3.first << endl;
 cout << pair3.second << endl;
 ```
 
-### 3.8ma/multimap容器
+### 3.8map/multimap容器
 
 #### 3.8.1map/multimap基本概念
 
